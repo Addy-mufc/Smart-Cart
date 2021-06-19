@@ -35,14 +35,14 @@ def main():
 
 def push_to_db (barcode_text):
     firebaseConfig = {
-    'apiKey': "AIzaSyDnJvvik1UPpFqEEaGFk68zQAMrf-WJX8k",
-    'authDomain': "shopping-cart-1543f.firebaseapp.com",
-    'databaseURL': "https://shopping-cart-1543f-default-rtdb.asia-southeast1.firebasedatabase.app",
-    'projectId': "shopping-cart-1543f",
-    'storageBucket': "shopping-cart-1543f.appspot.com",
-    'messagingSenderId': "505850601943",
-    'appId': "1:505850601943:web:9ad17cb4f8e10b21b4ab92",
-    'measurementId': "G-V4E307VXS5"
+    'apiKey': "",
+    'authDomain': "",
+    'databaseURL': "",
+    'projectId': "",
+    'storageBucket': "",
+    'messagingSenderId': "",
+    'appId': "",
+    'measurementId': ""
     }
     #Firebase config to connect to the realtime database in Firebase
     firebase = pyrebase.initialize_app(firebaseConfig)
